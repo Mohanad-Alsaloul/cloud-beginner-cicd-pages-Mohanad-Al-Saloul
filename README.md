@@ -5,9 +5,6 @@
 **Course:** Cloud Computing  
 **Instructor:** Dr. Faten F Abushmmala  
 ---
-## How to run locally
-Download files and open index.html in your browser.
----
 ## CI/CD Pipeline Flow
 This project uses **GitHub Actions** to automate the workflow:
 1. **Push:** Any change pushed to the `main` branch triggers the pipeline.
