@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud CI/CD Beginner Assignment</title>
+   <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>My Cloud CI/CD Site</h1>
+    <p><b>Name:</b> Mohanad Al-Saloul</p>
+    <p><b>Course:</b> Cloud Computing</p>
+
+    <hr>
+
+    <h2>What is CI/CD?</h2>
+    <p>
+        CI/CD stands for Continuous Integration and Continuous Deployment. 
+        Continuous Integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. 
+        Continuous Deployment (CD) is the process of automatically deploying those changes to a production environment, like GitHub Pages. 
+        This approach helps developers find bugs faster and deliver updates to users more frequently and reliably without manual intervention.
+    </p>
+
+    <h2>My Pipeline</h2>
+    <p>
+        Once I push my code to the main branch on GitHub, a GitHub Actions workflow is triggered. 
+        It first checks out the code using "actions/checkout", verifies that all essential files (HTML, CSS, JS) exist, 
+        and then automatically deploys the updated site to GitHub Pages using "actions/deploy-pages".
+    </p>
+
+    <button id="btn">Click me</button>
+    <p id="msg"></p>
+
+   <script src="js/script.js"></script>
+</body>
+</html>
