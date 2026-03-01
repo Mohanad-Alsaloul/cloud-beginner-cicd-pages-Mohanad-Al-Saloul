@@ -1,3 +1,3 @@
 document.getElementById("btn").addEventListener("click", () => {
-  document.getElementById("msg").innerText = "Hello from JavaScript! OK";
+  document.getElementById("msg").innerText = "Hello Welcome! OK";
 });
